@@ -28,3 +28,8 @@ function formatoTempo (tempo){
 
 countDown()
 setInterval(countDown, 1000)
+
+function highlithCard(selector){
+    var element = document.querySelector(selector);
+    element.classList.toggle("card-highlight");
+}

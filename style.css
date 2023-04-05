@@ -125,3 +125,7 @@ footer .rightFooter input{
 footer .rightFooter input:hover{
     background-color: #F3C61F;
 }
+
+.card-highlight{
+    box-shadow: 5px 20px blue;
+}
