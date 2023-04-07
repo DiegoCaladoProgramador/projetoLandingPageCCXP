@@ -127,5 +127,44 @@ footer .rightFooter input:hover{
 }
 
 .card-highlight{
-    box-shadow: 5px 20px blue;
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+@media only screen and (max-width: 1095px) {
+    main aside .timer{
+        flex-direction: column;
+        margin-left: 10rem;
+    }
+}
+
+@media only screen and (max-width: 737px) {
+    main article h1{
+        color: #F3C61F;
+        font-size: 50px;
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+    main aside .timer{
+        flex-direction: column;
+        margin-left: 7rem;
+    }
+}
+
+@media only screen and (max-width: 607px) {
+    main article h1{
+        color: #F3C61F;
+        font-size: 40px;
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+    main aside .timer{
+        flex-direction: column;
+        margin-left: 3rem;
+    }
+    main article h3{
+        font-size: 15px;;
+    }
+    main article p{
+        font-size: 15px;;
+    }
 }
